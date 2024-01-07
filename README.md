@@ -1,35 +1,53 @@
-# Calculator
-[![Open Issues](https://badgen.net/github/open-issues/lavitratyagi1/calculator)](https://github.com/lavitratyagi1/calculator)
+# Flutter Calculator App
 
-This is a simple calculator app built with Flutter. It allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The app features a clean and user-friendly interface with a classic theme.
+A simple calculator app built with Flutter.
 
 ## Features
 
-- Perform basic arithmetic operations
-- History button to see history of calculations
-- Clear button to reset the input and start a new calculation
-- Responsive layout for a seamless user experience on different devices
-- Classic theme with a visually appealing design
+- Basic arithmetic operations: addition, subtraction, multiplication, division
+- Real-time expression evaluation
+- Clear and delete functionality
+- History of calculations
+
+## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
 
 ## Getting Started
 
-To get started with the Basic Calculator app, follow these steps:
+### Prerequisites
 
-1. Clone the repository: https://github.com/lavitratyagi1/calculator
+- Flutter SDK installed
+- Android Studio / Xcode for emulator or physical device
 
-2. Open the project in your preferred Flutter IDE or editor.
+### Running the App
 
-3. Run the app on an emulator or physical device using the following command:
-```
-flutter run
-```
+1. Clone the repository:
 
-4. Explore the app and perform basic calculations.
-
-## Android apk
-
-You can download apk file to directly install apk file for your android device.
+   ```
+   git clone https://github.com/your-username/flutter-calculator-app.git
+   '''
+2. Navigate to the project folder:
+   ```
+   cd flutter-calculator-app
+   ```
+3. Install dependencies:
+  ```
+  flutter pub get
+  ```
+4. Run the app:
+  ```
+  flutter run
+  ```
+## Usage
+  Enter mathematical expressions using the buttons.
+  Press '=' to evaluate the expression.
+  Use 'C' to clear the entire input.
+  'DEL' removes the last character.
 
 ## Contributing
+Feel free to contribute to the project by opening issues or pull requests.
 
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue on the GitHub repository. If you'd like to contribute code, you can fork the repository, make your changes, and submit a pull request.
+## License
+This project is licensed under the MIT License.
