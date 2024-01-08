@@ -181,10 +181,10 @@ class _CalculatorAppState extends State<CalculatorApp> {
           ),
           Row(
             children: [
-              _buildButton('C', bgColor: Colors.red),
-              _buildButton('%', textColor: Colors.white),
-              _buildButton('D', bgColor: Colors.grey),
               _buildHistoryButton(),
+              _buildButton('%', textColor: Colors.white),
+              _buildButton('C', bgColor: Colors.red),
+              _buildButton('D', bgColor: Colors.grey),
             ],
           ),
           Row(
