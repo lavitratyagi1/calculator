@@ -167,9 +167,15 @@ class _CalculatorAppState extends State<CalculatorApp> {
                     _output,
                     style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
                   ),
-                  Text(
-                    _realTimeOutput,
-                    style: TextStyle(fontSize: 24),
+                  AnimatedSwitcher(
+                    duration: Duration(milliseconds: 300),
+                    child: _realTimeOutput.isNotEmpty
+                        ? Text(
+                            _realTimeOutput,
+                            key: ValueKey<String>(_realTimeOutput),
+                            style: TextStyle(fontSize: 24),
+                          )
+                        : SizedBox.shrink(),
                   ),
                   Divider(
                     height: 5,
@@ -234,7 +240,7 @@ class _CalculatorAppState extends State<CalculatorApp> {
                 color: Colors.blue,
               ),
             ),
-            for (String entry in history)
+            for (String entry in history.reversed)
               ListTile(
                 title: Text(entry),
               ),
