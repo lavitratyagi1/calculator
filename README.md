@@ -11,8 +11,10 @@ A simple calculator app built with Flutter.
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 1] ![cal1](https://github.com/lavitratyagi1/calculator/assets/88032773/e3341578-ce75-43b3-b4cf-4d73e7aa47dc)
+
+![Screenshot 2] ![cal2](https://github.com/lavitratyagi1/calculator/assets/88032773/07f23356-5a74-4b99-8d1c-3c689f96ed8f)
+
 
 ## Getting Started
 
@@ -27,19 +29,19 @@ A simple calculator app built with Flutter.
 
    ```
    git clone https://github.com/your-username/flutter-calculator-app.git
-   '''
+   ```
 2. Navigate to the project folder:
    ```
    cd flutter-calculator-app
    ```
 3. Install dependencies:
-  ```
-  flutter pub get
-  ```
+   ```
+   flutter pub get
+   ```
 4. Run the app:
-  ```
-  flutter run
-  ```
+   ```
+   flutter run
+   ```
 ## Usage
   Enter mathematical expressions using the buttons.
   Press '=' to evaluate the expression.
